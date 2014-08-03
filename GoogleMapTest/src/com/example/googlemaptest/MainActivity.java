@@ -2,8 +2,11 @@ package com.example.googlemaptest;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 
 import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,6 +16,7 @@ import android.widget.Toast;
 public class MainActivity extends ActionBarActivity {
 	
 	private GoogleMap googlemap;
+	private Activity coreactivity = this;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,17 @@ public class MainActivity extends ActionBarActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        
+        googlemap.setMyLocationEnabled(true);
+        googlemap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+			
+			@Override
+			public void onMapClick(LatLng point) {
+				Toast.makeText(coreactivity, ""+point , Toast.LENGTH_SHORT).show();
+			}
+		});
+        
+        
     }
 
 
