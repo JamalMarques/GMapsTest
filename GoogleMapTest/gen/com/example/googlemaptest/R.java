@@ -1456,8 +1456,11 @@ containing a value of this type.
         public static final int ic_plusone_small_off_client=0x7f020071;
         public static final int ic_plusone_standard_off_client=0x7f020072;
         public static final int ic_plusone_tall_off_client=0x7f020073;
-        public static final int powered_by_google_dark=0x7f020074;
-        public static final int powered_by_google_light=0x7f020075;
+        public static final int markerdestino=0x7f020074;
+        public static final int markerorigen=0x7f020075;
+        public static final int orgien=0x7f020076;
+        public static final int powered_by_google_dark=0x7f020077;
+        public static final int powered_by_google_light=0x7f020078;
     }
     public static final class id {
         public static final int action_bar=0x7f08002e;
@@ -1471,7 +1474,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f08004f;
+        public static final int action_settings=0x7f080052;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1486,6 +1489,7 @@ containing a value of this type.
         public static final int dialog=0x7f080021;
         public static final int disableHome=0x7f08001b;
         public static final int dropdown=0x7f080022;
+        public static final int editText1=0x7f08004f;
         public static final int edit_query=0x7f080042;
         public static final int end=0x7f080025;
         public static final int expand_activities_button=0x7f080038;
@@ -1499,9 +1503,11 @@ containing a value of this type.
         public static final int icon=0x7f08003c;
         public static final int ifRoom=0x7f08001d;
         public static final int image=0x7f080039;
+        public static final int imageButton1=0x7f08004e;
+        public static final int imageButton2=0x7f080050;
         public static final int listMode=0x7f080014;
         public static final int list_item=0x7f08003b;
-        public static final int map=0x7f08004e;
+        public static final int map=0x7f080051;
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
