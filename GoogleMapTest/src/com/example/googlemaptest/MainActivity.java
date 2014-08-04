@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity implements /*OnMarkerClickLi
 	
 	private Marker markOrigin,markDestiny;
 	
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,7 @@ public class MainActivity extends ActionBarActivity implements /*OnMarkerClickLi
         try {
             // Loading map
             InitializeMap();
- 
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
